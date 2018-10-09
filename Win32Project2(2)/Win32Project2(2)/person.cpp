@@ -1,4 +1,4 @@
-#include "person.h"
+﻿#include "person.h"
 /**
 	@file	person.cpp
 	@brief	Файл исходных кодов класса Персоны
