@@ -1,17 +1,17 @@
 ﻿/**
-	@mainpage Проект LAB7 для тестирования Doxygen
+	@mainpage Проект LAB3 для тестирования Doxygen
 
-	Используется в лабораторной работе номер 6
+	Используется в лабораторной работе номер 3
 	по курсу Технологии Проектирования
 	@copyright	ЗАО "АБС"
-	@author		Иванов И.И.
-	@date		01-04-2014
+	@author		Лузин, Ореликов, Янковский
+	@date		09-10-2018
 \par Использует классы:
 - @ref Person
 - @ref Worker
 \par Содержит файлы:
 - @ref person.h
 - @ref person.cpp
-- @ref worker.h
+- @ref worker.h 
 - @ref worker.cpp
 */
