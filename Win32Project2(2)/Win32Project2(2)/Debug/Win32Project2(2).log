@@ -1,0 +1,28 @@
+﻿Построение начато 09.10.2018 16:27:45.
+     1>Проект "C:\Users\Student\Desktop\metrorepo\Win32Project2(2)\Win32Project2(2)\Win32Project2(2).vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt person.cpp "test-lab7.cpp" worker.cpp
+         worker.cpp
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.h(37): error C2969: синтаксическая ошибка: ;: требуется определение функции-члена до "}"
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(17): error C2039: {ctor}: не является членом "Worker"
+                 c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.h(20): см. объявление "Worker"
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(17): error C2144: синтаксическая ошибка: перед "void" требуется ")"
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(17): error C2630: обнаружен ";" в списке с разделителем-запятой
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(17): error C2612: недопустимый завершающий "тип" в списке инициализации членов и базовых классов
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(17): error C2614: Worker: недопустимая инициализация члена: "Worker" не является базовым классом или членом
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(17): error C2059: синтаксическая ошибка: )
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(18): warning C4091: : пропускается слева от "void", когда ни одна переменная не объявлена
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(18): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(22): error C2144: синтаксическая ошибка: перед "char" требуется ")"
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(22): error C2059: синтаксическая ошибка: )
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(23): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\worker.cpp(26): fatal error C1004: непредвиденное обнаружение конца файла
+         test-lab7.cpp
+         person.cpp
+         Создание кода...
+     1>c:\users\student\desktop\metrorepo\win32project2(2)\win32project2(2)\person.cpp(26): error C4716: Person::changeAddr2: должна возвращать значение
+     1>Построение проекта "C:\Users\Student\Desktop\metrorepo\Win32Project2(2)\Win32Project2(2)\Win32Project2(2).vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:01.66
