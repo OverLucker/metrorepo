@@ -3,8 +3,8 @@
 	@file	person.cpp
 	@brief	Файл исходных кодов класса Персоны
 	@copyright	ЗАО "АБС"
-	@author	Иванов И. И.
-	@date	01-04-2014
+	@author	Лузин, Ореликов, Янковский
+	@date	09-10-2018
 	@version	2.0.1
 \par Использует файл:
 	@ref person.h
@@ -12,11 +12,15 @@
 	@ref Person
 */
 
-person::person(void)
+Person::Person(void)
 {
 }
 
 
-person::~person(void)
+Person::~Person(void)
 {
+}
+
+
+char* Person::changeAddr2(char *newAddr, int a, bool b) {
 }

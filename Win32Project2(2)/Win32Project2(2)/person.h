@@ -52,4 +52,13 @@ public:
 	@param newAddr новый адрес персоны
 	@return успешность выполнения действия */
 	bool changeAddr(char *newAddr);
+
+		/** \brief Изменяет адрес персоны
+
+	Перед изменением проверяет формат строки с адресом ( код, город, улица, дом-корпус-номер)
+	@param newAddr новый адрес персоны
+	@param a парам парам пам!
+	@param b бурум бурум бум!
+	@return успешность выполнения действия */
+	char* changeAddr2(char *newAddr, int a, bool b);
 };
