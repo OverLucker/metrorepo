@@ -1,0 +1,6 @@
+*.sln
+*.sdf
+*.suo
+*.opensdf
+*.vcxproj*
+.idea
