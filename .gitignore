@@ -4,3 +4,5 @@
 *.opensdf
 *.vcxproj*
 .idea
+Calculator/Project/Debug
+Calculator/Project/Release
